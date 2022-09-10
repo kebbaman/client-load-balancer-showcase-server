@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.kebba</groupId>
-	<artifactId>client-load-balancer-showcase-server</artifactId>
+	<artifactId>client-side-load-balancer-showcase-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>client-load-balancer-showcase-server</name>
 	<description>Showcase project for the spring-cloud-loadbalancer api</description>
@@ -36,6 +36,11 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-ui</artifactId>
+			<version>1.6.11</version>
 		</dependency>
 	</dependencies>
 	<dependencyManagement>

@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class CashierService {
     @Value("${cashier.name}")
-    private static String cashierName;
+    private String cashierName;
 
     public String serve(){
         return "You are being served by: "+cashierName;
